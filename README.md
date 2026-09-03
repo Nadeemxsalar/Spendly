@@ -1,47 +1,53 @@
 # 💰 Spendly
 
-> Manage your money smarter.
+> **Manage your money smarter.**
 
-Spendly is a simple and clean personal expense tracker built with React Native and Expo.
+Spendly is a simple and clean personal expense tracker built with **React Native and Expo**. It helps users track expenses, organize spending by category, search transactions, and view recent expenses.
 
-🌐 **Live Web App:** https://spendlypro.vercel.app/
+## 🌐 Live Web App
+
+👉 **[Open Spendly](https://spendlypro.vercel.app/)**
+
+## 📱 Android App
+
+The latest Android APK is available in GitHub Releases.
+
+👉 **[Download Spendly APK](../../releases/latest)**
+
+> The APK is currently provided for testing and personal use.
 
 ## ✨ Features
 
 - 💰 Track total spending
-- ➕ Add expenses
+- ➕ Add and manage expenses
 - 🗂️ Organize expenses by category
 - 🔍 Search expenses
 - 📊 View spending by category
 - 🧾 View recent expenses
 - 🗑️ Delete expenses
-- 💾 Store expenses locally
-- 📱 Android app
-- 🌐 Web version
+- 💾 Local data storage
+- 📱 Android support
+- 🌐 Web support
 
-## 📱 Android APK
+## 📸 Screenshots
 
-The Android APK is available in the GitHub Releases section.
+### 🏠 Home Screen
 
-👉 **[Download Spendly APK](../../releases)**
+![Spendly Home Screen](assets/screenshots/home.png)
 
-> The APK is currently provided for testing and personal use.
+### ➕ Add Expense
 
-## 🌐 Live Demo
-
-Try Spendly directly in your browser:
-
-👉 **https://spendlypro.vercel.app/**
+![Spendly Add Expense](assets/screenshots/add-expense.png)
 
 ## 🛠️ Tech Stack
 
-- React Native
-- Expo
-- Expo Router
-- TypeScript
-- AsyncStorage
-- Vercel
-- GitHub
+- **React Native**
+- **Expo**
+- **Expo Router**
+- **TypeScript**
+- **AsyncStorage**
+- **Vercel**
+- **GitHub**
 
 ## 🚀 Getting Started
 
@@ -71,11 +77,15 @@ npx expo start
 
 ## 🌐 Run on Web
 
+To run Spendly in a web browser:
+
 ```bash
 npx expo start --web
 ```
 
 ## 📱 Build Android APK
+
+To create an Android APK using EAS Build:
 
 ```bash
 eas build --platform android --profile preview
@@ -86,6 +96,10 @@ eas build --platform android --profile preview
 ```text
 Spendly/
 ├── assets/
+│   ├── images/
+│   └── screenshots/
+│       ├── home.png
+│       └── add-expense.png
 ├── src/
 │   └── app/
 │       ├── _layout.tsx
@@ -100,18 +114,36 @@ Spendly/
 
 ## 💾 Data Storage
 
-Spendly currently stores expense data locally using AsyncStorage.
+Spendly currently stores expense data locally using **AsyncStorage**.
 
-No account or cloud database is required for the current version.
+The current version does not require an account or cloud database.
 
-## 📸 Screenshots
+## 🌐 Deployment
 
-_Add screenshots of the Spendly app here._
+The web version of Spendly is deployed using **Vercel**.
+
+Every new push to the connected GitHub repository can trigger a new web deployment.
+
+## 📦 Release
+
+### v1.0.0
+
+Initial release of Spendly with:
+
+- Expense tracking
+- Category-wise spending
+- Search
+- Recent expenses
+- Local storage
+- Android APK
+- Web version
+
+👉 **[View Releases](../../releases)**
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
-Made with ❤️ using React Native & Expo.
+Made with ❤️ using **React Native & Expo**.
